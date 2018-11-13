@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interfacebg"
+    tools:context=".CalculatorActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="28dp"
+        android:paddingLeft="28dp"
+        android:layout_above="@id/editText1"
+        android:paddingBottom="40dp"
+        android:id="@+id/EXs_Board">
+
+        <LinearLayout
+            android:id="@+id/EX1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EX1_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="الببطن"
+                style="@style/TextStyle"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/Ex1_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                style="@style/TextStyle"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/EX2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EX2_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="الضغط"
+                style="@style/TextStyle"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/Ex2_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                style="@style/TextStyle"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/EX3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EX3_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="العقله"
+                style="@style/TextStyle"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/Ex3_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                style="@style/TextStyle"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/EX4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/EX4_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="تمرين رقم تلاته"
+                style="@style/TextStyle"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Ex4_Score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00"
+                style="@style/TextStyle"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="#ffff"
+        android:inputType="number"
+        android:text=""
+        android:textSize="40sp"
+        style="@style/TextStyle"
+        app:layout_constraintTop_toBottomOf="@+id/EXs_Board" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="50dp"
+        android:text="التــــــــــالى"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+
+
+</RelativeLayout>

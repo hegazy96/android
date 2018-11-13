@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interfacebg"
+    tools:context=".Cal_StyleActivity">
+
+    <Button
+        android:id="@+id/avg_calculation"
+        style="@style/btn_Style"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="65dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:text="النسبة المئوية" />
+
+    <Button
+        android:id="@+id/table_calculation"
+        style="@style/btn_Style"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/avg_calculation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:text="الترجمة" />
+
+
+
+
+</RelativeLayout>

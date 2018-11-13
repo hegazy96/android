@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/PopUp_s1"
+    android:layout_margin="50sp"
+    android:background="#84b7b8">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\nWaiting more information about the style !!!\n "
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#2e1e25"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="176dp"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>
